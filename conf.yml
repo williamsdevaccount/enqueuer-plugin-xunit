@@ -1,0 +1,9 @@
+name: examples
+files:
+- test.yml
+
+#optional
+outputs:
+-   type: file
+    format: xunit
+    filename: output.xml

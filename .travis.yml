@@ -1,0 +1,23 @@
+language: node_js
+
+sudo: required
+
+node_js:
+    - v10.8.0
+
+cache:
+    directories:
+        - node_modules
+
+notifications:
+    email:
+        on_success: never
+        on_failure: always
+
+script:
+    - npm install
+    - npm run lint
+    - npm run build
+    - npm test
+    - npm link
+    - nqr conf.yml -l `pwd`

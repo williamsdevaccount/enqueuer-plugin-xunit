@@ -1,0 +1,188 @@
+{
+  "name": "examples",
+  "valid": false,
+  "tests": [],
+  "requisitions": [
+    {
+      "valid": false,
+      "tests": [],
+      "name": "test.yml",
+      "id": "test.yml",
+      "subscriptions": [],
+      "publishers": [],
+      "time": {
+        "startTime": "2019-03-05T22:57:14.527Z",
+        "endTime": "2019-03-05T22:57:14.549Z",
+        "totalTime": 22
+      },
+      "requisitions": [
+        {
+          "valid": false,
+          "tests": [
+            {
+              "valid": true,
+              "name": "No time out",
+              "description": "Requisition has not timed out: 15 <= 5000"
+            }
+          ],
+          "name": "Requisition #0",
+          "subscriptions": [
+            {
+              "name": "TestUdpSubscription",
+              "type": "udp",
+              "tests": [
+                {
+                  "name": "Payload",
+                  "valid": false,
+                  "description": "Expected 'payload' to be equal to 'notit'. Received 'it'"
+                },
+                {
+                  "name": "Remote Adderss",
+                  "valid": true,
+                  "description": "Expected 'remoteInfo.address' to be equal to '127.0.0.1'. Received '127.0.0.1'"
+                },
+                {
+                  "valid": true,
+                  "name": "Message received",
+                  "description": "Subscription has received its message"
+                }
+              ],
+              "valid": false,
+              "connectionTime": "2019-03-05T22:57:14.538Z",
+              "messageReceived": {
+                "payload": {
+                  "type": "Buffer",
+                  "data": [
+                    105,
+                    116
+                  ]
+                },
+                "remoteInfo": {
+                  "address": "127.0.0.1",
+                  "family": "IPv4",
+                  "port": 53175,
+                  "size": 2
+                }
+              }
+            }
+          ],
+          "publishers": [
+            {
+              "name": "TestUdpPublisher",
+              "valid": true,
+              "type": "udp",
+              "tests": [
+                {
+                  "name": "Published",
+                  "valid": true,
+                  "description": "Published successfully"
+                }
+              ],
+              "publishTime": "2019-03-05T22:57:14.542Z"
+            }
+          ],
+          "time": {
+            "startTime": "2019-03-05T22:57:14.532Z",
+            "endTime": "2019-03-05T22:57:14.547Z",
+            "totalTime": 15,
+            "timeout": 5000
+          },
+          "requisitions": []
+        }
+      ]
+    },
+    {
+      "valid": false,
+      "tests": [],
+      "name": "test2.yml",
+      "id": "test2.yml",
+      "subscriptions": [],
+      "publishers": [],
+      "time": {
+        "startTime": "2019-03-05T22:57:14.527Z",
+        "endTime": "2019-03-05T22:57:14.549Z",
+        "totalTime": 22
+      },
+      "requisitions": [
+        {
+          "valid": false,
+          "tests": [
+            {
+              "valid": true,
+              "name": "No time out",
+              "description": "Requisition has not timed out: 15 <= 5000"
+            }
+          ],
+          "name": "Requisition #0",
+          "subscriptions": [
+            {
+              "name": "TestUdpSubscription",
+              "type": "udp",
+              "tests": [
+                {
+                  "name": "Payload",
+                  "valid": false,
+                  "description": "Expected 'payload' to be equal to 'notit'. Received 'it'"
+                },
+                {
+                  "name": "Remote Adderss",
+                  "valid": true,
+                  "description": "Expected 'remoteInfo.address' to be equal to '127.0.0.1'. Received '127.0.0.1'"
+                },
+                {
+                  "valid": true,
+                  "name": "Message received",
+                  "description": "Subscription has received its message"
+                }
+              ],
+              "valid": false,
+              "connectionTime": "2019-03-05T22:57:14.538Z",
+              "messageReceived": {
+                "payload": {
+                  "type": "Buffer",
+                  "data": [
+                    105,
+                    116
+                  ]
+                },
+                "remoteInfo": {
+                  "address": "127.0.0.1",
+                  "family": "IPv4",
+                  "port": 53175,
+                  "size": 2
+                }
+              }
+            }
+          ],
+          "publishers": [
+            {
+              "name": "TestUdpPublisher",
+              "valid": true,
+              "type": "udp",
+              "tests": [
+                {
+                  "name": "Published",
+                  "valid": true,
+                  "description": "Published successfully"
+                }
+              ],
+              "publishTime": "2019-03-05T22:57:14.542Z"
+            }
+          ],
+          "time": {
+            "startTime": "2019-03-05T22:57:14.532Z",
+            "endTime": "2019-03-05T22:57:14.547Z",
+            "totalTime": 15,
+            "timeout": 5000
+          },
+          "requisitions": []
+        }
+      ]
+    }
+  ],
+  "time": {
+    "startTime": "2019-03-05T22:57:14.360Z",
+    "endTime": "2019-03-05T22:57:14.552Z",
+    "totalTime": 192
+  }
+}

@@ -1,0 +1,12 @@
+tsconfig.json
+src
+.gitignore
+example.ts
+tslint.json
+coverage
+.travis.yml
+.idea/
+examples/
+test.yml
+conf.yml
+output.xml

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="test.yml" time="15" tests="5" failures="0" errors="0" skipped="0">
+        <testcase name="test.yml: No time out"/>
+        <testcase name="TestUdpSubscription: Payload"/>
+        <testcase name="TestUdpSubscription: Remote Adderss"/>
+        <testcase name="TestUdpSubscription: Message received"/>
+        <testcase name="TestUdpPublisher: Published"/>
+    </testsuite>
+</testsuites>
