@@ -23,7 +23,8 @@
     "nqr",
     "xunit",
     "report",
-    "plugin"
+    "plugin",
+    "junit"
   ],
   "author": "William Stowers",
   "license": "MIT",
